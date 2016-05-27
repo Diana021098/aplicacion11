@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Proyecto</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temapp11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/9.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="a">
+<h1>Atlixco "Pueblo Mágico" </h1>
+<iframe src="visor/indexwow.html" style="width:960px;height:250px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ubicación</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Tradiciones</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Gastronomía</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Lugares para visitar</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Turismo</h2>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+  <img src="imagenes/persona_rosa.png" width="46" height="46">
+  </div>
+  <div>
+  <h4>Atlixco Puebla</h4>
+  <h4>Diana Laura Perez Salvador</h4>
+  </div>
+  </div>
+  </div>
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Ubicación</h1>
+ 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <p>Se ubica a 25 km de la ciudad de Puebla, capital del Estado y cuenta con dos importantes vías de acceso: la Carretera Federal 190 y la moderna Autopista Vía Atlixcáyotl.</p>
+  <img src="imagenes/1.jpg" width="80%" height="70%">
+  
+
+<p>Actualmente, es una moderna ciudad con más de cien mil habitantes, que ha logrado armonizar su desarrollo urbano con el majestuoso legado de arquitectura colonial que dejaron sus fundadores (1579), y que hoy es uno de los principales atractivos turísticos de este municipio. </p>
+
+  </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Atlixco Puebla</h4>
+  <h4>Diana Laura Pérez Salvador</h4>
+  </div>
+  </div>
+  </div>
+ 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Tradiciones</h1>
+ </div>
+<div data-role="content" align="center">
+ <div>
+ <center>
+ <h2>HUEY ATLIXCAYOTL</h2>
+  <img src="imagenes/10.jpg" width="70%" height="60%">
+  </center>
+  
+ <p>Es el evento más importante a nivel estatal donde se reúnen las 11 regiones etnogeográficas con que cuenta el estado de Puebla, mágica reunión que muestra a los visitantes nacionales y extranjeros de la calidad y calidez de los atlixquenses, mostrando la riqueza de nuestra cultura y tradiciones a través de la danza y música de nuestro Estado. </p>
+ <p>El sábado previo al Festival Atlixcáyotl empiezan a llegar los indígenas de los 7 grupos étnicos de Puebla tales como los popolocas, otomíes, nahuas etc., quienes realizan un desfile que culmina en el zócalo con la elección de la Xochicíhuatl (mujer flor) y sus Xochipilme (florecitas) evento en el que se demuestra la capacidad de la mujer indígena dentro de sus comunidades, pero éste no se trata de un certamen de belleza, más bien es la trascendencia que tienen las enseñanzas tradicionales y formativas en cuanto a costumbres y modos de empleo dentro de su comunidad. </p>
+ <center>
+ <h2>EXPO FLORES Y PLANTAS</h2>
+  <img src="imagenes/11.jpg" width="70%" height="60%">
+  </center>
+  
+ <p>Exposición y venta de flores y plantas que tambien cuenta con la presencia de de diferentes expositores de insumos y productos relacionados con la industria floral. Esta expo se realiza a principios del mes de Julio.Tambien destaca la Feria de la Noche Buena en en su tercera emisión se logró una producción de un millón 600 mil plantas.</p>
+
+<p>La Expo Flores y Plantas cuenta con un espacio de 2 mil 500 metros cuadrados para más de 150 expositores de la localidad y del interior de la república.</p>
+<center>
+<h2>FIESTA DE REYES</h2>
+ <img src="imagenes/12.jpg" width="70%" height="60%">
+  </center>
+<p>Las Fiestas de Reyes es una actividad que nació en Atlixco para el país. Su meta cumplida es que ninguno de los 40 mil niños de escasos recursos que tenemos en el municipio se quede sin recibir un juguete. </p>
+
+<P>Las Fiestas de Reyes de Atlixco fueron consideradas por el Fondo de las Naciones Unidas para la Infancia, la UNICEF, y el DIF Nacional como uno de los 17 mejores proyectos de la república mexicana que destacan la respuesta a una amplia convocatoria a voluntarios, pues en los trabajos participan más de mil ciudadanos, servidores públicos y empresarios incluso del extranjero.</P>
+
+<p>Dentro de las Fiestas de Reyes, el Festival de la Ilusión tiene el objetivo de despertar en los niños la imaginación y hacer que ellos inviten a los Reyes Magos a visitar Atlixco. </p>
+
+<p>Este festival lleno de magia, música, colorido y fuegos piroctécnicos se realiza en la Plazuela de la Danza del Cerro de San Miguel, donde llegado el momento los pequeñitos lanzan sus globos al cielo con las cartas que dirigen a los Reyes Magos. </p>
+
+<p>El Festival de la ilusión logra reunir a más de 5 mil asistentes, entre papás y niños, con lo que se convierte en un gran festival.</p>
+
+<p>Voluntarios y empresas preparan con anticipación la llegada de los Reyes quienes recorren las principales calles de la ciudad acompañados de payasos, personajes animados y carros alegóricos perfectamente iluminados que aluden a temas infantiles.</p>
+<iframe width="80%" height="60%" src="https://www.youtube.com/embed/py9RyqZfS7Y" frameborder="0" allowfullscreen></iframe>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Atlixco Puebla</h4>
+  <h4>Diana Laura Pérez Salvador</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Gastronomía</h1>
+ </div>
+ <div data-role="content">
+ <div>
+ <h4>Comida típica de Atlixco</h4>
+ <center>
+ <h2>Cecina</h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/3.jpg',1)"><img src="imagenes/2.jpg" width="300" height="168" id="Image9"></a>
+ </center>
+ 
+ <p>Desde hace ya tiempo, nuestra ciudad se ha dado a conocer por la exquisita cecina que se puede encontrar por los pasillos del mercado y en algunos restaurantes de la ciudad. Esta forma de preparar la carne de res posee el sabor de Atlixco, que por su delgadez es perfecta para servir en una tortilla acompañada de aguacate, queso, crema y una rica salsa.</p>
+ <center>
+ <h2>Chiles en nogada</h2>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/5.jpg',1)"><img src="imagenes/4.jpg" width="275" height="183" id="Image"></a>
+ </center>
+ Representativo del estado de Puebla, tiene su origen en los tiempos de Independencia en homenaje a Agustín de Iturbide. Los colores de la bandera se aprecian con armonía y perfección en este manjar por los meses de julio y agosto, ya que sus ingredientes se logran en esta temporada.
+ </center>
+ <center>
+ <h2>Barbacoa</h2>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/7.jpg',0)"><img src="imagenes/6.jpg" width="259" height="194" id="Image10"></a>
+  </center>
+  <p>La carne de borrego hecha en barbacoa es uno de los estilos de popularidad en el centro del país. Elaborada dentro de la tierra con hojas de maguey alcanza su mejor punto en sabor; lo puedes preparar en taco o simplemente con una rica salsa y aguacate. No olvides el consomé que se produce al cocinar la barbacoa.</p>
+  <center>
+  <h2>Mole Poblano</h2>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/9.jpg',1)"><img src="imagenes/8.jpg" width="271" height="186" id="Image11"></a>
+  </center>
+  <p>Delicioso mole dulce representativo de Puebla, está hecho a base de varios chiles y condimentos, agregando una caricia de chocolate. Su consistencia espesa se acompaña comúnmente de una pieza de guajolote o pollo y se agrada a la vista decorándolo con ajonjolí tostado.</p>
+
+
+<p> </p>
+<p></p>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Atlixco Puebla</h4>
+  <h4>Diana Laura Pérez Salvador</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Lugares para visitar</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+<p>* Metepec: Donde se ubica el centro vacacional del IMSS. </p>
+<img src="imagenes/13.jpg" width="90%" height="30%">
+<p>*San Baltazar Atlimeyaya : Excelente opción para disfrutar de deliciosas truchas preparadas en sus restaurantes campestres.</p>
+<img src="imagenes/14.jpg" width="70%" height="70%">
+<p>*Tochimilco: Visite su ex convento franciscano estilo severiano.</p>
+<img src="imagenes/15.jpg" width="80%" height="30%">
+<p>*Huaquechula: Disfrute de los balnearios de la zona, la tradicional celebración de día de muertos y admire el arte gótico isabelino del ex convento franciscano.</p>
+
+ <img src="imagenes/16.jpg" width="50%" height="50%">
+ <p>*Zócalo:Una vuelta por el zócalo es una experiencia inolvidable, saboreando los ricos helados y sorbetes que venden cerca de allí, así mismo entrar a algún restaurante para degustar la cecina atlixquense, el guacamole, el consomé Atlixquense, o las truchas en sus diferentes modalidades. A tan solo una cuadra del centro, en el mercado encontrarás tortillas hechas a mano, expendios de cecina, tlacoyos, quesos frescos de la región o si eres de "gustoso paladar" podrás comer los originales chapulines fritos con sal y limón.</p>
+  <img src="imagenes/17.jpg" width="70%" height="60%">
+ 
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+<h4>Atlixco Puebla</h4>
+  <h4>Diana Laura Pérez Salvador</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Historia</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <p>En el año 1100 el valle de Atlixco se hallaba ocupado por pobladores de origen Teochichimeca, Chichimeca y Xicalancas que bajo el dominio de la gran Tenochtitlan, se asentaron primeramente al poniente del cerro de San Miguel, hoy Solares Grandes</p>
+ <img src="imagenes/18.jpg" width="70%" height="60%">
+ <p>Estos primeros pueblos fundaron así Quaquechollan (Águila que huye) y que tiempo después llamaron Acapetlahuacan, "Lugar de división del señorío".</p>
+ <img src="imagenes/19.jpg" width="70%" height="60%">
+ <p>Su posición geográfica hizo que fuera escenario de luchas entre los diversos grupos indígenas que estaban asentados en los alrededores. Los pueblos de Calpan, Huejotzingo y Cholula se disputaron en diversas épocas la posesión del valle, que a la llegada de los españoles se encontraba bajo el dominio de Huejotzingo</p>
+ <img src="imagenes/20.jpg" width="50%" height="30%">
+ <p>Hacia 1420 se sostuvieron guerras entre los pobladores de Calpan y los Huejotzincas, quienes finalmente vencieron a los primeros obligándolos a emigrar al sur, donde actualmente es Huaquechula.</p>
+ 
+ </div> </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Atlixco Puebla</h4>
+  <h4>Diana Laura Pérez Salvador</h4>
+ </div>
+ </div>
+ </div>
+
+ </body>
+ </html>
